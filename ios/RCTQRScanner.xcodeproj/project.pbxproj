@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C12FDC42251E4560099BECB /* RCTQRScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C12FDBA2251E4560099BECB /* RCTQRScanner.framework */; };
+		0C12FDCB2251E4560099BECB /* RCTQRScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C12FDBD2251E4560099BECB /* RCTQRScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C12FDD62251EBF50099BECB /* RCTQRScannerViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C12FDD42251EBF50099BECB /* RCTQRScannerViewManager.h */; };
+		0C12FDD72251EBF50099BECB /* RCTQRScannerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C12FDD52251EBF50099BECB /* RCTQRScannerViewManager.m */; };
+		0C12FDDA2251EC000099BECB /* RCTQRScannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C12FDD82251EC000099BECB /* RCTQRScannerView.h */; };
+		0C12FDDB2251EC000099BECB /* RCTQRScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C12FDD92251EC000099BECB /* RCTQRScannerView.m */; };
+		0C12FDDD2251F20C0099BECB /* noticeMusic.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0C12FDDC2251F20C0099BECB /* noticeMusic.caf */; };
+		3DFE365D829B52E141673C01 /* libPods-RCTQRScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA464A603B45BEB8A39D4479 /* libPods-RCTQRScanner.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C12FDC52251E4560099BECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C12FDB12251E4560099BECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C12FDB92251E4560099BECB;
+			remoteInfo = RCTQRScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C12FDBA2251E4560099BECB /* RCTQRScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RCTQRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C12FDBD2251E4560099BECB /* RCTQRScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTQRScanner.h; sourceTree = "<group>"; };
+		0C12FDBE2251E4560099BECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C12FDC32251E4560099BECB /* RCTQRScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTQRScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C12FDD42251EBF50099BECB /* RCTQRScannerViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTQRScannerViewManager.h; sourceTree = "<group>"; };
+		0C12FDD52251EBF50099BECB /* RCTQRScannerViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTQRScannerViewManager.m; sourceTree = "<group>"; };
+		0C12FDD82251EC000099BECB /* RCTQRScannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTQRScannerView.h; sourceTree = "<group>"; };
+		0C12FDD92251EC000099BECB /* RCTQRScannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTQRScannerView.m; sourceTree = "<group>"; };
+		0C12FDDC2251F20C0099BECB /* noticeMusic.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = noticeMusic.caf; sourceTree = "<group>"; };
+		0FB0842EE29DAFA8E557133E /* Pods-RCTQRScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTQRScanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCTQRScanner/Pods-RCTQRScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		B03575D63A677302D174A3CA /* Pods-RCTQRScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTQRScanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCTQRScanner/Pods-RCTQRScanner.release.xcconfig"; sourceTree = "<group>"; };
+		EA464A603B45BEB8A39D4479 /* libPods-RCTQRScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTQRScanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C12FDB72251E4560099BECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFE365D829B52E141673C01 /* libPods-RCTQRScanner.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C12FDC02251E4560099BECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C12FDC42251E4560099BECB /* RCTQRScanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C12FDB02251E4560099BECB = {
+			isa = PBXGroup;
+			children = (
+				0C12FDBC2251E4560099BECB /* RCTQRScanner */,
+				0C12FDBB2251E4560099BECB /* Products */,
+				CF4B7CD5307A1CCE1B97FC53 /* Pods */,
+				4D0C7C179BD918B4C4A6E45C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C12FDBB2251E4560099BECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C12FDBA2251E4560099BECB /* RCTQRScanner.framework */,
+				0C12FDC32251E4560099BECB /* RCTQRScannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C12FDBC2251E4560099BECB /* RCTQRScanner */ = {
+			isa = PBXGroup;
+			children = (
+				0C12FDBD2251E4560099BECB /* RCTQRScanner.h */,
+				0C12FDBE2251E4560099BECB /* Info.plist */,
+				0C12FDD42251EBF50099BECB /* RCTQRScannerViewManager.h */,
+				0C12FDD52251EBF50099BECB /* RCTQRScannerViewManager.m */,
+				0C12FDD82251EC000099BECB /* RCTQRScannerView.h */,
+				0C12FDD92251EC000099BECB /* RCTQRScannerView.m */,
+				0C12FDDC2251F20C0099BECB /* noticeMusic.caf */,
+			);
+			path = RCTQRScanner;
+			sourceTree = "<group>";
+		};
+		4D0C7C179BD918B4C4A6E45C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA464A603B45BEB8A39D4479 /* libPods-RCTQRScanner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF4B7CD5307A1CCE1B97FC53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FB0842EE29DAFA8E557133E /* Pods-RCTQRScanner.debug.xcconfig */,
+				B03575D63A677302D174A3CA /* Pods-RCTQRScanner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C12FDB52251E4560099BECB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C12FDDA2251EC000099BECB /* RCTQRScannerView.h in Headers */,
+				0C12FDCB2251E4560099BECB /* RCTQRScanner.h in Headers */,
+				0C12FDD62251EBF50099BECB /* RCTQRScannerViewManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C12FDB92251E4560099BECB /* RCTQRScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C12FDCE2251E4560099BECB /* Build configuration list for PBXNativeTarget "RCTQRScanner" */;
+			buildPhases = (
+				50268ADE686AA443B309150E /* [CP] Check Pods Manifest.lock */,
+				0C12FDB52251E4560099BECB /* Headers */,
+				0C12FDB62251E4560099BECB /* Sources */,
+				0C12FDB72251E4560099BECB /* Frameworks */,
+				0C12FDB82251E4560099BECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTQRScanner;
+			productName = RCTQRScanner;
+			productReference = 0C12FDBA2251E4560099BECB /* RCTQRScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0C12FDC22251E4560099BECB /* RCTQRScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C12FDD12251E4560099BECB /* Build configuration list for PBXNativeTarget "RCTQRScannerTests" */;
+			buildPhases = (
+				0C12FDBF2251E4560099BECB /* Sources */,
+				0C12FDC02251E4560099BECB /* Frameworks */,
+				0C12FDC12251E4560099BECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C12FDC62251E4560099BECB /* PBXTargetDependency */,
+			);
+			name = RCTQRScannerTests;
+			productName = RCTQRScannerTests;
+			productReference = 0C12FDC32251E4560099BECB /* RCTQRScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C12FDB12251E4560099BECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Eafy;
+				TargetAttributes = {
+					0C12FDB92251E4560099BECB = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					0C12FDC22251E4560099BECB = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 0C12FDB42251E4560099BECB /* Build configuration list for PBXProject "RCTQRScanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C12FDB02251E4560099BECB;
+			productRefGroup = 0C12FDBB2251E4560099BECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C12FDB92251E4560099BECB /* RCTQRScanner */,
+				0C12FDC22251E4560099BECB /* RCTQRScannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C12FDB82251E4560099BECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C12FDDD2251F20C0099BECB /* noticeMusic.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C12FDC12251E4560099BECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50268ADE686AA443B309150E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RCTQRScanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C12FDB62251E4560099BECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C12FDDB2251EC000099BECB /* RCTQRScannerView.m in Sources */,
+				0C12FDD72251EBF50099BECB /* RCTQRScannerViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C12FDBF2251E4560099BECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C12FDC62251E4560099BECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C12FDB92251E4560099BECB /* RCTQRScanner */;
+			targetProxy = 0C12FDC52251E4560099BECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C12FDCC2251E4560099BECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C12FDCD2251E4560099BECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0C12FDCF2251E4560099BECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB0842EE29DAFA8E557133E /* Pods-RCTQRScanner.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EB9K2L27BQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RCTQRScanner/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eafy.RCTQRScanner;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C12FDD02251E4560099BECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03575D63A677302D174A3CA /* Pods-RCTQRScanner.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EB9K2L27BQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RCTQRScanner/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eafy.RCTQRScanner;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C12FDD22251E4560099BECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EB9K2L27BQ;
+				INFOPLIST_FILE = RCTQRScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eafy.RCTQRScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C12FDD32251E4560099BECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EB9K2L27BQ;
+				INFOPLIST_FILE = RCTQRScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eafy.RCTQRScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C12FDB42251E4560099BECB /* Build configuration list for PBXProject "RCTQRScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C12FDCC2251E4560099BECB /* Debug */,
+				0C12FDCD2251E4560099BECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C12FDCE2251E4560099BECB /* Build configuration list for PBXNativeTarget "RCTQRScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C12FDCF2251E4560099BECB /* Debug */,
+				0C12FDD02251E4560099BECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C12FDD12251E4560099BECB /* Build configuration list for PBXNativeTarget "RCTQRScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C12FDD22251E4560099BECB /* Debug */,
+				0C12FDD32251E4560099BECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C12FDB12251E4560099BECB /* Project object */;
+}
