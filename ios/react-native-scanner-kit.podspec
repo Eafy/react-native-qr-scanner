@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/Eafy/react-native-scanner-kit"
-  #s.screenshots  = "https://raw.githubusercontent.com/Eafy/react-native-scanner-kit/master/images/android.jpg", "https://raw.githubusercontent.com/Eafy/react-native-scanner-kit/master/images/ios.jpg"
+  #s.screenshots  = "https://raw.githubusercontent.com/eafy/react-native-scanner-kit/master/images/android.jpg", "https://raw.githubusercontent.com/eafy/react-native-scanner-kit/master/images/ios.jpg"
 
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }

@@ -1,6 +1,6 @@
 {
   "name": "react-native-scanner-kit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "QR Scanner modules and view for React Native(Android & iOS), support react native 0.58+.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Eafy/react-native-qr-scanner.git"
+    "url": "https://github.com/Eafy/react-native-scanner-kit.git"
   },
   "keywords": [
     "QR Scanner",
@@ -18,9 +18,9 @@
   "author": "Eafy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Eafy/react-native-qr-scanner/issues"
+    "url": "https://github.com/Eafy/react-native-scanner-kit/issues"
   },
-  "homepage": "https://github.com/Eafy/react-native-qr-scanner.git#readme",
+  "homepage": "https://github.com/Eafy/react-native-scanner-kit.git#readme",
   "devDependencies": {
     "react": "16.6.3",
     "react-native": "0.57.8"

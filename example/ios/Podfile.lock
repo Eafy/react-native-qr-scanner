@@ -11,7 +11,7 @@ PODS:
   - LBXScan/Types (2.3)
   - React (0.57.8):
     - React/Core (= 0.57.8)
-  - react-native-scanner-kit (0.0.1):
+  - react-native-scanner-kit (0.0.2):
     - LBXScan/LBXNative (= 2.3)
     - React
   - React/Core (0.57.8):
@@ -88,7 +88,7 @@ SPEC CHECKSUMS:
   glog: e8acf0ebbf99759d3ff18c86c292a5898282dcde
   LBXScan: e51449f0832d1fe17da632af0d22adeb3cfa3543
   React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
-  react-native-scanner-kit: bbadfb05a81b48d88d54a65f9acc95db5f146f9d
+  react-native-scanner-kit: 381c83bbd9d45b87204e6bdab5ac9ad6be14c9ec
   yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
 
 PODFILE CHECKSUM: 8cbd04c61015142ee6ce48292272b26dd0a99c99
