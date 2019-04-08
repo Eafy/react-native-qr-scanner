@@ -12,6 +12,8 @@
 		0C12FDD72251EBF50099BECB /* RCTQRScannerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C12FDD52251EBF50099BECB /* RCTQRScannerViewManager.m */; };
 		0C12FDDA2251EC000099BECB /* RCTQRScannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C12FDD82251EC000099BECB /* RCTQRScannerView.h */; };
 		0C12FDDB2251EC000099BECB /* RCTQRScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C12FDD92251EC000099BECB /* RCTQRScannerView.m */; };
+		0C8CFC80225B272B00BA466A /* RCTQRScannerNative.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CFC7E225B272B00BA466A /* RCTQRScannerNative.m */; };
+		0C8CFC81225B272B00BA466A /* RCTQRScannerNative.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C8CFC7F225B272B00BA466A /* RCTQRScannerNative.h */; };
 		3DFE365D829B52E141673C01 /* libPods-RCTQRScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA464A603B45BEB8A39D4479 /* libPods-RCTQRScanner.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		0C12FDD52251EBF50099BECB /* RCTQRScannerViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTQRScannerViewManager.m; sourceTree = "<group>"; };
 		0C12FDD82251EC000099BECB /* RCTQRScannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTQRScannerView.h; sourceTree = "<group>"; };
 		0C12FDD92251EC000099BECB /* RCTQRScannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTQRScannerView.m; sourceTree = "<group>"; };
+		0C8CFC7E225B272B00BA466A /* RCTQRScannerNative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTQRScannerNative.m; sourceTree = "<group>"; };
+		0C8CFC7F225B272B00BA466A /* RCTQRScannerNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTQRScannerNative.h; sourceTree = "<group>"; };
 		0FB0842EE29DAFA8E557133E /* Pods-RCTQRScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTQRScanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCTQRScanner/Pods-RCTQRScanner.debug.xcconfig"; sourceTree = "<group>"; };
 		B03575D63A677302D174A3CA /* Pods-RCTQRScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTQRScanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCTQRScanner/Pods-RCTQRScanner.release.xcconfig"; sourceTree = "<group>"; };
 		EA464A603B45BEB8A39D4479 /* libPods-RCTQRScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTQRScanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +89,8 @@
 				0C12FDD52251EBF50099BECB /* RCTQRScannerViewManager.m */,
 				0C12FDD82251EC000099BECB /* RCTQRScannerView.h */,
 				0C12FDD92251EC000099BECB /* RCTQRScannerView.m */,
+				0C8CFC7F225B272B00BA466A /* RCTQRScannerNative.h */,
+				0C8CFC7E225B272B00BA466A /* RCTQRScannerNative.m */,
 			);
 			path = RCTQRScanner;
 			sourceTree = "<group>";
@@ -114,6 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C12FDDA2251EC000099BECB /* RCTQRScannerView.h in Headers */,
+				0C8CFC81225B272B00BA466A /* RCTQRScannerNative.h in Headers */,
 				0C12FDD62251EBF50099BECB /* RCTQRScannerViewManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +249,7 @@
 			files = (
 				0C12FDDB2251EC000099BECB /* RCTQRScannerView.m in Sources */,
 				0C12FDD72251EBF50099BECB /* RCTQRScannerViewManager.m in Sources */,
+				0C8CFC80225B272B00BA466A /* RCTQRScannerNative.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
