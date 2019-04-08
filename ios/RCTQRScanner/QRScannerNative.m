@@ -1,12 +1,12 @@
 //
-//  RCTQRScannerNative.m
+//  QRScannerNative.m
 //  RCTQRScanner
 //
 //  Created by lzj<lizhijian_21@163.com> on 2019/4/1.
 //  Copyright © 2019 Eafy. All rights reserved.
 //
 
-#import "RCTQRScannerNative.h"
+#import "QRScannerNative.h"
 
 @implementation QRScannerResult
 

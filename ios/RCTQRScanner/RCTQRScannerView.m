@@ -7,13 +7,15 @@
 //
 
 #import "RCTQRScannerView.h"
-#import <LBXScan/LBXScanNative.h>
+#import "QRScannerNative.h"
 
 @interface RCTQRScannerView ()
 
-@property (nonatomic,strong) LBXScanNative *scanNative;
-@property (nonatomic,assign) BOOL canCameraPermission;
-@property (nonatomic,assign) BOOL isStartScan;
+@property (nonatomic,strong) QRScannerNative *scanNative;
+@property (nonatomic,assign) BOOL canCameraPermission;      //是否有摄像头权限
+@property (nonatomic,assign) BOOL isStartScan;              //是否开始h扫描
+@property (nonatomic,assign) BOOL isNeedRereadQR;           //是否需要循环重读扫描
+@property (nonatomic,assign) NSTimeInterval rereadQRTime;   //循环间隔时间
 
 @end
 
@@ -52,18 +54,20 @@
         CGRect cropRect = CGRectMake(x, y, width, height);
 
         __weak __typeof(self) weakSelf = self;
-        self.scanNative = [[LBXScanNative alloc] initWithPreView:self ObjectType:nil cropRect:cropRect success:^(NSArray<LBXScanResult *> *array) {
+        self.scanNative = [[QRScannerNative alloc] initWithPreView:self ObjectType:nil cropRect:cropRect success:^(NSArray<QRScannerResult *> *array) {
             [weakSelf scanResultWithArray:array];
         }];
+
+        [self.scanNative setNeedRereadQR:isNeedRereadQR waitTime:rereadQRTime];
     }
 }
 
-- (void)scanResultWithArray:(NSArray<LBXScanResult*>*)array
+- (void)scanResultWithArray:(NSArray<QRScannerResult*>*)array
 {
     [self playSound];
 
     NSMutableArray *resultArray = [NSMutableArray array];
-    for (LBXScanResult *result in array) {
+    for (QRScannerResult *result in array) {
         NSLog(@"%@", result.strScanned);
         [resultArray addObject:result.strScanned];
     }
@@ -73,13 +77,6 @@
                             @"params": resultArray
                             };
     [self sendEventWithParams:event];
-
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        if (self.scanNative && self.isStartScan) {
-//            [self.scanNative setNeedRereadQR:YES];     //再次启动扫描
-            [self.scanNative startScan];
-        }
-    });
 }
 
 - (void)playSound
@@ -150,6 +147,14 @@
 - (void)setIsOpenFlash:(BOOL)isOpenFlash
 {
     [self.scanNative setTorch:isOpenFlash];
+}
+
+- (void)setNeedRereadQR:(NSDictionary *)dic
+{
+    if (dic) {
+        self.isNeedRereadQR = [[dic objectForKey:@"reread"] boolValue];
+        self.rereadQRTime = [[dic objectForKey:@"time"] doubleValue];
+    }
 }
 
 @end

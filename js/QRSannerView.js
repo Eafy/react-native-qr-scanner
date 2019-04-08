@@ -22,13 +22,18 @@ export default class ScannerView extends Component {
     isStartScan: PropTypes.bool,
     isOpenFlash: PropTypes.bool,
     scanAudioFile:PropTypes.string,
+    rereadQR: PropTypes.object,
     onScanResult:PropTypes.func,
     onScanError:PropTypes.func
   };
 
   static defaultProps = {
     isStartScan: true,
-    isOpenFlash: false
+    isOpenFlash: false,
+    rereadQR:{
+        reread: true,
+        time: 0.5
+    }
   };
 
   constructor() {

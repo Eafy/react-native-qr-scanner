@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)sendEventWithParams:(NSDictionary *)params;
 - (void)setIsOpenFlash:(BOOL)isOpenFlash;
+- (void)setNeedRereadQR:(NSDictionary *)dic;
 
 @end
 

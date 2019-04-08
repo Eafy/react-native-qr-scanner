@@ -16,10 +16,15 @@ RCT_EXPORT_MODULE(QRScannerView)
 RCT_EXPORT_VIEW_PROPERTY(isStartScan, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(isOpenFlash, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(scanAudioFile, NSString)
+RCT_EXPORT_VIEW_PROPERTY(rereadQR, NSDictionary)
 RCT_EXPORT_VIEW_PROPERTY(onChange, RCTBubblingEventBlock)
 
 RCT_CUSTOM_VIEW_PROPERTY(cropRect, CGRect, RCTQRScannerView) {
     [view setCropRect:json ? [RCTConvert CGRect:json] : CGRectZero];
+}
+
+RCT_CUSTOM_VIEW_PROPERTY(rereadQR, NSDictionary, RCTQRScannerView) {
+    [view setNeedRereadQR:[RCTConvert NSDictionary:json]];
 }
 
 - (RCTView *)view

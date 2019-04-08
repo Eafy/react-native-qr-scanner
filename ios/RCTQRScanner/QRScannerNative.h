@@ -1,5 +1,5 @@
 //
-//  RCTQRScannerNative.h
+//  QRScannerNative.h
 //  RCTQRScanner
 //
 //  Created by lzj<lizhijian_21@163.com> on 2019/4/1.
