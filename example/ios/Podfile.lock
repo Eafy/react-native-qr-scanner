@@ -6,13 +6,9 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - LBXScan/LBXNative (2.3):
-    - LBXScan/Types (~> 2.2)
-  - LBXScan/Types (2.3)
   - React (0.57.8):
     - React/Core (= 0.57.8)
-  - react-native-scanner-kit (0.0.2):
-    - LBXScan/LBXNative (= 2.3)
+  - react-native-scanner-kit (0.0.3):
     - React
   - React/Core (0.57.8):
     - yoga (= 0.57.8.React)
@@ -65,7 +61,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - boost-for-react-native
-    - LBXScan
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -86,9 +81,8 @@ SPEC CHECKSUMS:
   DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
   Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
   glog: e8acf0ebbf99759d3ff18c86c292a5898282dcde
-  LBXScan: e51449f0832d1fe17da632af0d22adeb3cfa3543
   React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
-  react-native-scanner-kit: 381c83bbd9d45b87204e6bdab5ac9ad6be14c9ec
+  react-native-scanner-kit: 70cfcb0f0bc58c3298191caab4e2e9f436edab60
   yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
 
 PODFILE CHECKSUM: 8cbd04c61015142ee6ce48292272b26dd0a99c99

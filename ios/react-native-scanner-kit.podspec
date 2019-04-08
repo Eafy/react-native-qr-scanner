@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "react-native-scanner-kit"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "QRscanner for React Native"
 
   s.description  = <<-DESC
@@ -29,8 +29,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = "AVFoundation"
 
-  #s.libraries = "c++", "sqlite3", "ssl", "crypto"
-
   s.dependency "React"
-  #s.dependency 'LBXScan/LBXNative', '2.3'
 end

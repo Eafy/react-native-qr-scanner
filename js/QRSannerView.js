@@ -32,7 +32,7 @@ export default class ScannerView extends Component {
     isOpenFlash: false,
     rereadQR:{
         reread: true,
-        time: 0.5
+        time: 1.0
     }
   };
 

@@ -58,7 +58,7 @@
             [weakSelf scanResultWithArray:array];
         }];
 
-        [self.scanNative setNeedRereadQR:isNeedRereadQR waitTime:rereadQRTime];
+        [self.scanNative setNeedRereadQR:self.isNeedRereadQR waitTime:self.rereadQRTime];
     }
 }
 
