@@ -13,6 +13,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RCTQRScannerView : RCTView
 
+@property (nonatomic,copy) RCTBubblingEventBlock onChange;
+@property (nonatomic,assign) CGRect cropRect;
+@property (nonatomic,copy) NSString *scanAudioFile;
+
+- (void)sendEventWithParams:(NSDictionary *)params;
+- (void)setIsOpenFlash:(BOOL)isOpenFlash;
+
 @end
 
 NS_ASSUME_NONNULL_END

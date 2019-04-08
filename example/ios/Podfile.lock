@@ -1,0 +1,96 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.6)
+  - Folly (2016.10.31.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - LBXScan/LBXNative (2.3):
+    - LBXScan/Types (~> 2.2)
+  - LBXScan/Types (2.3)
+  - React (0.57.8):
+    - React/Core (= 0.57.8)
+  - react-native-scanner-kit (0.0.1):
+    - LBXScan/LBXNative (= 2.3)
+    - React
+  - React/Core (0.57.8):
+    - yoga (= 0.57.8.React)
+  - React/CxxBridge (0.57.8):
+    - Folly (= 2016.10.31.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.57.8):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.10.31.00)
+    - React/jschelpers
+    - React/jsinspector
+  - React/DevSupport (0.57.8):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.57.8)
+  - React/jschelpers (0.57.8):
+    - Folly (= 2016.10.31.00)
+    - React/PrivateDatabase
+  - React/jsinspector (0.57.8)
+  - React/PrivateDatabase (0.57.8)
+  - React/RCTAnimation (0.57.8):
+    - React/Core
+  - React/RCTBlob (0.57.8):
+    - React/Core
+  - React/RCTNetwork (0.57.8):
+    - React/Core
+  - React/RCTText (0.57.8):
+    - React/Core
+  - React/RCTWebSocket (0.57.8):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - yoga (0.57.8.React)
+
+DEPENDENCIES:
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - react-native-scanner-kit (from `../node_modules/react-native-scanner-kit/ios/react-native-scanner-kit.podspec`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+    - LBXScan
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "../node_modules/react-native"
+  react-native-scanner-kit:
+    :podspec: "../node_modules/react-native-scanner-kit/ios/react-native-scanner-kit.podspec"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
+  Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
+  glog: e8acf0ebbf99759d3ff18c86c292a5898282dcde
+  LBXScan: e51449f0832d1fe17da632af0d22adeb3cfa3543
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
+  react-native-scanner-kit: bbadfb05a81b48d88d54a65f9acc95db5f146f9d
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+
+PODFILE CHECKSUM: 8cbd04c61015142ee6ce48292272b26dd0a99c99
+
+COCOAPODS: 1.5.3

@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0C12FDC42251E4560099BECB /* RCTQRScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C12FDBA2251E4560099BECB /* RCTQRScanner.framework */; };
-		0C12FDCB2251E4560099BECB /* RCTQRScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C12FDBD2251E4560099BECB /* RCTQRScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C12FDD62251EBF50099BECB /* RCTQRScannerViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C12FDD42251EBF50099BECB /* RCTQRScannerViewManager.h */; };
 		0C12FDD72251EBF50099BECB /* RCTQRScannerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C12FDD52251EBF50099BECB /* RCTQRScannerViewManager.m */; };
 		0C12FDDA2251EC000099BECB /* RCTQRScannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C12FDD82251EC000099BECB /* RCTQRScannerView.h */; };
 		0C12FDDB2251EC000099BECB /* RCTQRScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C12FDD92251EC000099BECB /* RCTQRScannerView.m */; };
-		0C12FDDD2251F20C0099BECB /* noticeMusic.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0C12FDDC2251F20C0099BECB /* noticeMusic.caf */; };
 		3DFE365D829B52E141673C01 /* libPods-RCTQRScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA464A603B45BEB8A39D4479 /* libPods-RCTQRScanner.a */; };
 /* End PBXBuildFile section */
 
@@ -29,14 +27,12 @@
 
 /* Begin PBXFileReference section */
 		0C12FDBA2251E4560099BECB /* RCTQRScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RCTQRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C12FDBD2251E4560099BECB /* RCTQRScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTQRScanner.h; sourceTree = "<group>"; };
 		0C12FDBE2251E4560099BECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C12FDC32251E4560099BECB /* RCTQRScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTQRScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C12FDD42251EBF50099BECB /* RCTQRScannerViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTQRScannerViewManager.h; sourceTree = "<group>"; };
 		0C12FDD52251EBF50099BECB /* RCTQRScannerViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTQRScannerViewManager.m; sourceTree = "<group>"; };
 		0C12FDD82251EC000099BECB /* RCTQRScannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTQRScannerView.h; sourceTree = "<group>"; };
 		0C12FDD92251EC000099BECB /* RCTQRScannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTQRScannerView.m; sourceTree = "<group>"; };
-		0C12FDDC2251F20C0099BECB /* noticeMusic.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = noticeMusic.caf; sourceTree = "<group>"; };
 		0FB0842EE29DAFA8E557133E /* Pods-RCTQRScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTQRScanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCTQRScanner/Pods-RCTQRScanner.debug.xcconfig"; sourceTree = "<group>"; };
 		B03575D63A677302D174A3CA /* Pods-RCTQRScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTQRScanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCTQRScanner/Pods-RCTQRScanner.release.xcconfig"; sourceTree = "<group>"; };
 		EA464A603B45BEB8A39D4479 /* libPods-RCTQRScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTQRScanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,13 +80,11 @@
 		0C12FDBC2251E4560099BECB /* RCTQRScanner */ = {
 			isa = PBXGroup;
 			children = (
-				0C12FDBD2251E4560099BECB /* RCTQRScanner.h */,
 				0C12FDBE2251E4560099BECB /* Info.plist */,
 				0C12FDD42251EBF50099BECB /* RCTQRScannerViewManager.h */,
 				0C12FDD52251EBF50099BECB /* RCTQRScannerViewManager.m */,
 				0C12FDD82251EC000099BECB /* RCTQRScannerView.h */,
 				0C12FDD92251EC000099BECB /* RCTQRScannerView.m */,
-				0C12FDDC2251F20C0099BECB /* noticeMusic.caf */,
 			);
 			path = RCTQRScanner;
 			sourceTree = "<group>";
@@ -120,7 +114,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C12FDDA2251EC000099BECB /* RCTQRScannerView.h in Headers */,
-				0C12FDCB2251E4560099BECB /* RCTQRScanner.h in Headers */,
 				0C12FDD62251EBF50099BECB /* RCTQRScannerViewManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,7 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C12FDDD2251F20C0099BECB /* noticeMusic.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
