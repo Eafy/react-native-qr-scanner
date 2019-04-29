@@ -35,7 +35,7 @@ export default class App extends Component<Props> {
           height={height}
           isStartScan={this.state.isStartScan}
           isOpenFlash={this.state.isOpenFlash}
-          cropRect={{x:0, y:(height-width)/2, width:width, height:width}}
+          framingRatioRect={{x:0, y:(height-width)/2.0/height, width:1.0, height:width/height}}
           scanAudioFile="noticeMusic.caf"
 
           onScanResult={(params)=>{

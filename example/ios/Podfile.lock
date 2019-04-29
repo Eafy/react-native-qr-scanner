@@ -8,7 +8,7 @@ PODS:
   - glog (0.3.5)
   - React (0.57.8):
     - React/Core (= 0.57.8)
-  - react-native-scanner-kit (0.0.3):
+  - react-native-scanner-kit (0.0.4):
     - React
   - React/Core (0.57.8):
     - yoga (= 0.57.8.React)
@@ -82,7 +82,7 @@ SPEC CHECKSUMS:
   Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
   glog: e8acf0ebbf99759d3ff18c86c292a5898282dcde
   React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
-  react-native-scanner-kit: 70cfcb0f0bc58c3298191caab4e2e9f436edab60
+  react-native-scanner-kit: c76b2c0e7e51ff03d26f6743f226da0230980193
   yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
 
 PODFILE CHECKSUM: 8cbd04c61015142ee6ce48292272b26dd0a99c99

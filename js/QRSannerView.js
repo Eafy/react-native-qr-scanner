@@ -18,7 +18,7 @@ import PropTypes from 'prop-types';
 export default class ScannerView extends Component {
   static propTypes = {
     ...View.propTypes,
-    cropRect: PropTypes.object,
+    framingRatioRect: PropTypes.object,
     isStartScan: PropTypes.bool,
     isOpenFlash: PropTypes.bool,
     scanAudioFile:PropTypes.string,
@@ -46,19 +46,8 @@ export default class ScannerView extends Component {
     }
   }
 
-  renderIOS() {
-    return <QRScannerView {...this.props} onChange={this._onChange.bind(this)}/>;
-  }
-
-  renderAndroid() {
-    return <QRScannerView {...this.props} onChange={this._onChange.bind(this)}/>;
-  }
-
   render() {
-    if (Platform.OS === 'ios') {
-      return this.renderIOS();
-    }
-    return this.renderAndroid();
+    return <QRScannerView {...this.props} onChange={this._onChange.bind(this)}/>;
   }
 }
 
