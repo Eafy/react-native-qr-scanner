@@ -134,9 +134,6 @@
         [_session addOutput:_stillImageOutput];
     }
     
- 
- 
-    
     // 条码类型 AVMetadataObjectTypeQRCode
    // _output.metadataObjectTypes =@[AVMetadataObjectTypeQRCode];
     
