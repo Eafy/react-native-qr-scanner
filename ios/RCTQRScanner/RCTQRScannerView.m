@@ -46,12 +46,12 @@
 - (void)setupScanReader
 {
     if (!_scanNative) {
-        CGRect viewRect = self.frame;
-        CGFloat x = self.cropRect.origin.y / viewRect.size.height;
-        CGFloat y = self.cropRect.origin.x / viewRect.size.width;
-        CGFloat width = self.cropRect.size.height / viewRect.size.height;
-        CGFloat height = self.cropRect.size.width / viewRect.size.width;
-        CGRect cropRect = CGRectMake(x, y, width, height);
+//        CGRect viewRect = self.frame;
+//        CGFloat x = self.cropRect.origin.y / viewRect.size.height;
+//        CGFloat y = self.cropRect.origin.x / viewRect.size.width;
+//        CGFloat width = self.cropRect.size.height / viewRect.size.height;
+//        CGFloat height = self.cropRect.size.width / viewRect.size.width;
+//        CGRect cropRect = CGRectMake(x, y, width, height);
 
         __weak __typeof(self) weakSelf = self;
         self.scanNative = [[QRScannerNative alloc] initWithPreView:self ObjectType:nil cropRect:cropRect success:^(NSArray<QRScannerResult *> *array) {
