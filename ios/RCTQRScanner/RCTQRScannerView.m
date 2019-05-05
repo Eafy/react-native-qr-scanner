@@ -54,7 +54,7 @@
 //        CGRect cropRect = CGRectMake(x, y, width, height);
 
         __weak __typeof(self) weakSelf = self;
-        self.scanNative = [[QRScannerNative alloc] initWithPreView:self ObjectType:nil cropRect:cropRect success:^(NSArray<QRScannerResult *> *array) {
+        self.scanNative = [[QRScannerNative alloc] initWithPreView:self ObjectType:nil cropRect:self.cropRect success:^(NSArray<QRScannerResult *> *array) {
             [weakSelf scanResultWithArray:array];
         }];
 

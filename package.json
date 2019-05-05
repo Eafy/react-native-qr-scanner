@@ -15,9 +15,9 @@
     "QRScanner",
     "React Native"
   ],
-  "author":  {
-      "name": "Eafy",
-      "email": "lizhijian_21@163.com"
+  "author": {
+    "name": "Eafy",
+    "email": "lizhijian_21@163.com"
   },
   "license": "MIT",
   "bugs": {
@@ -27,5 +27,6 @@
   "devDependencies": {
     "react": "16.6.3",
     "react-native": "0.57.8"
-  }
+  },
+  "dependencies": {}
 }
