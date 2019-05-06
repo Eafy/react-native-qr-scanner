@@ -40,7 +40,7 @@ Podfile 增加
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'react-native-scanner-kit', :podspec => '../node_modules/react-native-scanner-kit/ios/react-native-scanner-kit.podspec'
+  pod 'react-native-scanner-kit', :path => './node_modules/react-native-scanner-kit' #或使用命令行react-native link react-native-scanner-kit再进行pod
 ```
 ### Usage 使用方法
 `import { QRSannerView } from 'react-native-scanner-kit';`
@@ -48,7 +48,7 @@ Podfile 增加
 #### QRScannerView Props 属性
 | Prop                    | Type  | Default  | Description
 | ----------------------- |:-----:| :-------:| -------
-| cropRect                | object| full     | Scanning area
+| framingRatioRect        | object| full     | Scanning area，Framing ratio rect
 | isStartScan             | bool  | true     |
 | isOpenFlash             | bool  | false    |
 | scanAudioFile           | string| null     | 
