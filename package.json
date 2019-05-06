@@ -1,6 +1,6 @@
 {
   "name": "react-native-scanner-kit",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "QR Scanner modules and view for React Native(Android & iOS), support react native 0.58+.",
   "main": "index.js",
   "scripts": {
