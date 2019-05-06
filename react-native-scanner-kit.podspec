@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "react-native-scanner-kit"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "QRscanner for React Native"
   s.description  = <<-DESC
   QR Scanner modules and view for React Native(Android & iOS), support react native 0.58+.
