@@ -53,5 +53,5 @@ Podfile 增加
 | isOpenFlash             | bool  | false    |
 | scanAudioFile           | string| null     | 
 | rereadQR                | object| {reread: true,time: 1.0} | 
-| onScanResult            | func  | undefined| 
-| onScanError             | func  | undefined|
+| onScanResult            | func  | []       | 
+| onScanError             | func  | {code: -1,errMsg: "Err Msg"} |
